@@ -1,0 +1,25 @@
+{
+  "name": "separation-of-concerns",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "learn to build well-structured code that uses the DOM",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackYourFutureBelgium/separation-of-concerns.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write ./"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackYourFutureBelgium/separation-of-concerns/issues"
+  },
+  "homepage": "https://github.com/HackYourFutureBelgium/separation-of-concerns#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+    "jest": "^29.6.1",
+    "jest-environment-jsdom": "^29.6.1"
+  }
+}
